@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+       <link rel="stylesheet" type="text/css"href="stylesheet.css">
+  </head>
+  <body ng-app = "myApp">
+  <div class="whatup" ng-controller ="MainCtrl">
+        <h1>Names of The Ramones</h1>
+
+        <ul>   
+            <li ng-repeat="ramone in ramones">{{ramone}}</li>     
+         </ul>  
+    </div>
+      <script src="main.controller.js"></script>
+  </body>
+</html>

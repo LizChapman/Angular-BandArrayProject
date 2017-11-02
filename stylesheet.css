@@ -1,0 +1,14 @@
+.whatup{
+    
+    border: 3px black solid;
+    border-radius:5%;
+    width:400px;
+    background-color: lightcoral;
+    padding:15px;
+    font-family: sans-serif;
+    color: darkred;
+}
+
+h1{
+    text-align: center;
+}
